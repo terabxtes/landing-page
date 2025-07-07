@@ -11,13 +11,8 @@ This is my solution to The Odin Project's Landing Page project. The goal is to b
 
 ## Current Status
 
-- ✅ HTML structure complete  
-- ⏳ CSS styling to be added next
-
-## Live Preview
-
-_Open `index.html` in your browser_  
-_(or use Live Server in VS Code)_
+- HTML structure complete  
+- CSS styling to be added next
 
 ## Author
 
