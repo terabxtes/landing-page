@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f3ef;
+    color: #1a1a1a;
+  }
+
+  header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #hero {
+    background-color: #2c3e50;
+    color: white;
+    padding: 60px 20px;
+  }
+
+  #hero .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .text-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .hero-image {
+    flex: 1;
+    background: url('images/olympus.jpg') no-repeat center/cover;
+    height: 300px;
+    border-radius: 12px;
+    min-width: 300px;
+  }
+
+  h1, h2, h3, h4 {
+    margin: 0.5em 0;
+  }
+
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background: white;
+    width: 220px;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  #underworld {
+    background-color: #e2e2e2;
+  }
+
+  blockquote {
+    font-style: italic;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #444;
+    text-align: center;
+  }
+
+  #cta {
+    background-color: #caa75e;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  #cta button, #hero button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: white;
+    color: #caa75e;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+
+  #cta button:hover, #hero button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+
+  footer {
+    background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
