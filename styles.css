@@ -105,8 +105,8 @@
 
   blockquote {
     font-style: italic;
-    max-width: 700px;
     margin: 0 auto;
+    max-width: 700px;
     padding: 40px 20px;
     color: #444;
     text-align: center;
@@ -139,8 +139,8 @@
   }
 
   footer {
-    background: #1f2937;
-    color: white;
+    color: black;
+    font-weight: bold;
     text-align: center;
     padding: 15px;
     font-size: 0.9rem;
