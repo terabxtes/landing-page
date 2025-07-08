@@ -12,7 +12,8 @@ This is my solution to The Odin Project's Landing Page project. The goal is to b
 ## Current Status
 
 - HTML structure complete  
-- CSS styling to be added next
+- CSS styling is added.
+- Images are to be added next.
 
 ## Author
 
